@@ -18,7 +18,7 @@ class Transaction {
             }
             this.asset.quantity -= this.quantity;
         } else {
-            throw new Error('Invalid transaction type. Use "buy" or "sell".');
+            throw new Error('Transaction incorrect. Select "buy" or "sell".');
         }
     }
 }
