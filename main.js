@@ -13,9 +13,9 @@ displayPortfolioDetails();
 
 try {
     console.log("\nPerforming Transactions...");
-    new Transaction(1, "buy", 10);
-    new Transaction(2, "sell", 5);
-    new Transaction(3, "sell", 25);  // This will throw an error
+    new Transaction(1, "buy", 18);
+    new Transaction(2, "sell", 15);
+    new Transaction(3, "sell", 35);  // This will throw an error
 } catch (error) {
     console.error("Transaction Error:", error.message);
 }
